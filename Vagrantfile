@@ -17,11 +17,11 @@ Vagrant.configure("2") do |config|
 
     sudo apt-get update
 
- 	curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
-	sudo apt-get install -y nodejs
-	sudo npm i -g serve
-	sudo npm i -g pm2
-	mkdir /vagrant/app
+   	curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+  	sudo apt-get install -y nodejs
+  	sudo npm i -g serve
+  	sudo npm i -g pm2
+  	mkdir /vagrant/app
     
     sudo apt-get -y install nginx
     sudo rm /etc/nginx/sites-enabled/default
