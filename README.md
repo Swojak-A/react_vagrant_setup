@@ -23,7 +23,9 @@ It contains basic node packages and nginx config.
 Since I encountered various problem with symlinks while trying to setup projects by npm or yarn inside a vagrant, I advice 
 to setup project with npm from Win10.
 
-First install nodeJS from official website:
+First delete current project by removing `app` directory.
+
+Next install nodeJS from official website:
 https://nodejs.org/en/
 
 When it's done restart computer and test if it is installed properly:
